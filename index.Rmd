@@ -1,9 +1,17 @@
 --- 
 title: "R for teachers"
-author: "YOUR NAME HERE"
+author: "Hwang"
 date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
+output:
+  bookdown::pdf_document2:
+header-includes:
+- \usepackage{kotex}
 ---
 
-# Down the rabbit-hole
+# Hwang's first git work
+
+latex_engine::xelatex
+
+
+
 
